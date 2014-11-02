@@ -2,16 +2,23 @@
 <html lang="en" ng-app="classBuilder">
   <head>
     <meta charset="UTF-8">
-    <title>Class Browser</title>
-    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <title>Class Schedule</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <script src="/static/js/jquery-2.1.1.min.js"></script>
     <script src="/static/js/bootstrap.js"></script>
     <script src="/static/js/angular.js"></script>
     <script src="/static/js/app.js"></script>
+
+    <body>
+
     <style type="text/css">
+
+          body {background-color:#FFF5CC}
+
       .center {
       margin-left: auto;
       margin-right: auto;
+      text-align: center;
 
       width: 90%;
       height: 20%;
@@ -37,8 +44,8 @@
         <div class="col-md-8" style="width:1200px;height:100px;background:#FFF5CC;">
           <div class="row">
             <div class="col-md-8" style="width:300px;height:80px;background:#003399;color:white;font-size:48px;">
-              <p class="text-left;">classBuilder</p></div>
-            <div class="col-md-8" style="width:900px; background:white;">
+              <p class="text-left;"><u>classBuilder</u></p></div>
+            <div class="col-md-8" style="width:610px; background:white;">
               <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation">
                   <a href="#"> Home </a>
@@ -85,11 +92,150 @@
         <div class="col-md-1" style="background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">Spring</div>
       </div>
 
+      <!--<div class="col-md-12"> 1
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+      </div>
+
+      
+        <div class="col-md-12"> 2
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+      </div>
+
+        <div class="col-md-12"> 3--
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+      </div>
+
+        <div class="col-md-12"> 4--
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;" align="center"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+      </div>
+
+        <div class="col-md-12"> 5--
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;" align="center"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+      </div>
+
+        <div class="col-md-12"> 6--
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;" align="center"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+      </div>
+
+        <div class="col-md-12"> 7--
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;" align="center"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+      </div>
+
+        <div class="col-md-12"> 8--
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;" align="center"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+        <div class="col-md-1" style="height:60px;background:#D1F0FF;border:1px solid #003399;text-align:center;color:#003399;"><p></p>Class</div>
+      </div>-->
+
+
+
+
+
+
+
+
+
       <div class="col-md-12">
-        <div class="col-md-1" ng-repeat="q in schedule"> <!-- 1 -->
+        <div class="col-md-1" ng-repeat="q in schedule">
           <div class="" ng-repeat="class in q" style="height:100px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">
             {{ class }}
-            <!--<button type="button" class="btn btn-xs btn-danger"> X </button>-->
+            <button type="button" class="btn btn-xs btn-danger"> X </button>
+
+
+
+
+
+
+
+
+
+
           </div>
         </div>
       </div>
