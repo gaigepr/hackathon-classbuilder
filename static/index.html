@@ -11,18 +11,18 @@
   </head>
   <body ng-controller="classList">
 
-    <div ng-repeat="(key, vals) in classes">
-      {{ key }} --
+    <div ng-repeat="cl in classes">
+      {{ cl.ClassName }} --
       <ul>
         <li>Requires</li>
         <ul>
-          <li ng-repeat="c in vals.requires">
+          <li ng-repeat="c in cl.Properties.Prereqs">
             {{ c }}
           </li>
         </ul>
         <li>Enables</li>
         <ul>
-          <li ng-repeat="c in vals.enables">
+          <li ng-repeat="c in cl.Properties.Enables">
             {{ c }}
           </li>
         </ul>
