@@ -104,8 +104,15 @@ classBuilder.controller('builder', function ($scope, $http, $q) {
 
             if (graph[topoNodes[i]].Prereqs != null) {
 
-                if (!classesTaken[topoNodes[i]] &&
-                    curCreds + graph[topoNodes[i]].Credits <= maxCreds) {
+                if (!classesTaken[topoNodes[i]] && graph[topoNodes[i]].Prereqs.every(function(current, index, array) { return classesTaken[current]; })) {
+                    console.log("taken this!");
+                    if (curCreds + graph[topoNodes[i]].Credits <= maxCreds) {
+                        currentQ.push(topoNodes[i]);
+                        curCreds += graph[topoNodes[i]].Credits;
+                    }
+
+                } else if (!classesTaken[topoNodes[i]] &&
+                           curCreds + graph[topoNodes[i]].Credits <= maxCreds) {
                     //graph[topoNodes[i]].Prereqs.every(function(current, index, array) { return classesTaken[current]; })) {
 
                     console.log("We have not taken and cant: ", topoNodes[i]);
@@ -117,40 +124,25 @@ classBuilder.controller('builder', function ($scope, $http, $q) {
                     currentQ.push(topoNodes[i]);
                     curCreds += graph[topoNodes[i]].Credits;
 
-                } else if (classesTaken[topoNodes[i]]) {
-                    console.log("taken this!");
-                    //newTopoNodes(topoNodes[i]);
 
                 } else if (graph[topoNodes[i]].Prereqs.every(function(current, index, array) { return classesTaken[current]; })) {
-                    console.log("WE HAVE TAKEN ALL THE DEPENDENCIES");
+
                     if (curCreds + graph[topoNodes[i]].Credits <= maxCreds) {
                         currentQ.push(topoNodes[i]);
                         curCreds += graph[topoNodes[i]].Credits;
                     }
 
+                } else if (!classesTaken[topoNodes[i]] && graph[topoNodes[i]].Prereqs.every(function(current, index, array) { return classesTaken[current]; })) {
+                    console.log("taken this!");
+                    newTopoNodes.push(topoNodes[i]);
+
+                } else if (!classesTaken[topoNodes[i]] || graph[topoNodes[i]].Prereqs.every(function(current, index, array) { return classesTaken[current]; })) {
+                    console.log("taken this!");
+                    newTopoNodes.push(topoNodes[i]);
 
                 } else {
                     newTopoNodes.push(topoNodes[i]);
                 }
-
-                // } else if (!classesTaken[topoNodes[i]] &&
-                //            curCreds + graph[topoNodes[i]].Credits <= maxCreds &&
-                //            graph[topoNodes[i]].Prereqs.every(function(current, index, array) { return classesTaken[current]; })) {
-
-                //     //console.log("prereqfs????: ", graph[topoNodes[i]]);
-                //     //graph[topoNode[i]].Prereqs.every(function(current, index, array) { return classesTaken[current]; }))
-
-                //     console.log("Havent taking, adding because all prereqs met?");
-                //     currentQ.push(topoNodes[i]);
-                //     curCreds += graph[topoNodes[i]].Credits;
-
-
-                // } else  if (classesTaken[topoNodes[i]]) {
-                //     console.log("We have taken: ", topoNodes[i]);
-                // } else {
-                //     newTopoNodes.push(topoNodes[i]);
-                // }
-
             }
         }
         console.log("PUSHING SAD ASD ASD SAD :",  currentQ);
@@ -159,7 +151,7 @@ classBuilder.controller('builder', function ($scope, $http, $q) {
         curCred = 0;
         console.log(topoNodes, newTopoNodes);
         return topoGroupSort(newTopoNodes, classesTaken, maxCreds);
-};
+    };
 
     generateSchedule();
     console.log("ALL THE SCHEDULEEEE: ", $scope.schedules);
@@ -218,45 +210,45 @@ classBuilder.controller('builder', function ($scope, $http, $q) {
 });
 
 
-    function tSort(edges) {
-        return toposort(uniqueNodes(edges), edges);
-    }
+function tSort(edges) {
+    return toposort(uniqueNodes(edges), edges);
+}
 
-    function toposort(nodes, edges) {
-        var cursor = nodes.length
-        , sorted = new Array(cursor)
-        , visited = {}
-        , i = cursor
-        while (i--) {
-            if (!visited[i]) visit(nodes[i], i, [])
-        }
-        return sorted
-        function visit(node, i, predecessors) {
-            if(predecessors.indexOf(node) >= 0) {
-                throw new Error('Cyclic dependency: '+JSON.stringify(node))
-            }
-            if (visited[i]) return;
-            visited[i] = true
-            // outgoing edges
-            var outgoing = edges.filter(function(edge){
-                return edge[0] === node
-            })
-            if (i = outgoing.length) {
-                var preds = predecessors.concat(node)
-                do {
-                    var child = outgoing[--i][1]
-                    visit(child, nodes.indexOf(child), preds)
-                } while (i)
-            }
-            sorted[--cursor] = node
-        }
+function toposort(nodes, edges) {
+    var cursor = nodes.length
+    , sorted = new Array(cursor)
+    , visited = {}
+    , i = cursor
+    while (i--) {
+        if (!visited[i]) visit(nodes[i], i, [])
     }
-    function uniqueNodes(arr){
-        var res = []
-        for (var i = 0, len = arr.length; i < len; i++) {
-            var edge = arr[i]
-            if (res.indexOf(edge[0]) < 0) res.push(edge[0])
-            if (res.indexOf(edge[1]) < 0) res.push(edge[1])
+    return sorted
+    function visit(node, i, predecessors) {
+        if(predecessors.indexOf(node) >= 0) {
+            throw new Error('Cyclic dependency: '+JSON.stringify(node))
         }
-        return res
+        if (visited[i]) return;
+        visited[i] = true
+        // outgoing edges
+        var outgoing = edges.filter(function(edge){
+            return edge[0] === node
+        })
+        if (i = outgoing.length) {
+            var preds = predecessors.concat(node)
+            do {
+                var child = outgoing[--i][1]
+                visit(child, nodes.indexOf(child), preds)
+            } while (i)
+        }
+        sorted[--cursor] = node
     }
+}
+function uniqueNodes(arr){
+    var res = []
+    for (var i = 0, len = arr.length; i < len; i++) {
+        var edge = arr[i]
+        if (res.indexOf(edge[0]) < 0) res.push(edge[0])
+        if (res.indexOf(edge[1]) < 0) res.push(edge[1])
+    }
+    return res
+}
