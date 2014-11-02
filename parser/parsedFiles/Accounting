@@ -1,0 +1,230 @@
+ACCT
+240
+4
+Financial <span class="acalog-highlight-search-1">Accounting</span>
+An introduction to the theory and practice of <span class="acalog-highlight-search-1">accounting</span> and financial reporting. Topics include the <span class="acalog-highlight-search-1">accounting</span> cycle, financial statements and <span class="acalog-highlight-search-1">accounting</span> for assets, liabilities, equities, revenues and expenses.
+0
+0[]
+
+
+
+ACCT
+245
+4
+Managerial <span class="acalog-highlight-search-1">Accounting</span>
+An introduction to the use of <span class="acalog-highlight-search-1">accounting</span> information by managers. Topics include the use of <span class="acalog-highlight-search-1">accounting</span> information for planning and control, performance evaluation, decision-making, and the statement of cash flows, along with financial statement analysis.
+0
+1[ACCT 240]
+
+
+
+DSCI
+205
+4
+Business Statistics
+Statistical methods used in business research, analysis and decision making; preparation and presentation of data, frequency distributions, measures of central tendency and dispersion, statistical inference, regression and correlation.
+0
+1[1[1[1[MATH 156,MATH 114],MATH 115],MATH 118]]
+
+
+
+ECON
+206
+4
+Introduction to Microeconomics
+An overview of the modern market economy as a system for dealing with the problem of scarcity. Operation and decision-making of economic units; supply, demand and resource allocation; analysis of various market and industry structures; shortages, controls, social costs and benefits; international trade; comparative systems.
+SSC
+1[MATH 112]
+
+
+
+ECON
+207
+4
+Introduction to Macroeconomics
+An overview of the modern market economy as a system for dealing with the problem of scarcity. The analysis of relationships among such variables as national income, employment, inflation and the quantity of money. The roles of government expenditure, taxation and monetary policy; international finance; economic development.
+SSC
+2[1[1[ECON 206,ECON 446],ECON 101], MATH 112]
+
+
+
+MATH
+157
+4
+Calculus With Applications to Business and Economics
+Limits, rates of change, differentiation, graphing and optimization, integration, business applications, partial differentiation. MATH 124 may be substituted for MATH 157 but not vice versa. Cannot be taken for credit by a student who has already completed another college-level calculus course.
+QSR
+2[MATH 156, 1[MATH 114,MATH 118]]
+
+
+
+MGMT
+271
+4
+Law and the Business Environment
+Historical development of legal institutions, the judicial process, and impact of the law upon individual and business decision making.
+SSC
+1[1[MGMT 271,OR]]
+
+
+
+MIS
+220
+2
+Introduction to Business Computer Systems
+Introduction to use of commercial software packages for business applications, including spreadsheet analysis, word processing, data management, and communications. S/U grading.
+0
+1[ACCT 240]
+
+
+
+ACCT
+341
+4
+Intermediate <span class="acalog-highlight-search-1">Accounting</span> Theory and Practice I
+An in-depth study of <span class="acalog-highlight-search-1">accounting</span> theory and practice for students who require more than introductory coverage. Both conceptual and application topics are studied.
+0
+1[ACCT 245]
+
+
+
+ACCT
+321
+4
+<span class="acalog-highlight-search-1">Accounting</span> Information Systems I
+An introduction to the subject of information system’s role in accomplishing the objectives of financial <span class="acalog-highlight-search-1">accounting</span>, managerial <span class="acalog-highlight-search-1">accounting</span>, tax <span class="acalog-highlight-search-1">accounting</span> and auditing. Systems covered include manual <span class="acalog-highlight-search-1">accounting</span>, computerized <span class="acalog-highlight-search-1">accounting</span>, and Internet electronic commerce applications. Additional topics include internal controls, systems analysis, systems design and systems implementation.
+0
+2[ACCT 245, MIS 220]
+
+
+
+ACCT
+342
+4
+Intermediate <span class="acalog-highlight-search-1">Accounting</span> Theory and Practice II
+A continuation of ACCT 341 covering complex topics in <span class="acalog-highlight-search-1">accounting</span> and financial reporting.
+0
+1[ACCT 341]
+
+
+
+ACCT
+375
+4
+Income Taxation I
+Taxation of individuals and sole proprietorships. Introduction to tax planning and sources of authority of tax law.
+0
+1[ACCT 240]
+
+
+
+ACCT
+343
+4
+Intermediate <span class="acalog-highlight-search-1">Accounting</span> Theory and Practice III
+A continuation of ACCT 342 covering complex topics in <span class="acalog-highlight-search-1">accounting</span> and financial reporting. Special topics, existing and emerging issues in <span class="acalog-highlight-search-1">accounting</span>.
+0
+1[ACCT 342]
+
+
+
+ACCT
+331
+4
+Cost Management
+Procedures used for classifying, recording, summarizing and allocating current, and estimated costs for planning, controlling and reporting purposes.
+0
+3[ACCT 245, DSCI 205, MIS 220]
+
+
+
+ACCT
+461
+4
+Auditing Theory and Practice
+A study of the role of auditing and auditors in corporate financial reporting, and the importance of this role to the public. Topics covered include the audit planning process, audit reports, professional standards, and the legal and ethical responsibilities of auditors to their clients, the <span class="acalog-highlight-search-1">accounting</span> profession and to the public.
+0
+2[ACCT 321, ACCT 343]
+
+
+
+ACCT
+470
+4
+Law of Commercial Transactions
+Legal principles underlying the law of contracts, sales, secured transactions, real property security, bankruptcy and suretyship.
+0
+1[MGMT 271]
+
+
+
+FIN
+341
+4
+Principles of Finance
+Core principles of financial management and goal of businesses, financial institutions and markets, time value of money, capital budgeting, stock and bond valuation, capital structure, risk and return, and financial analysis and planning.
+0
+3[ACCT 245, DSCI 205, MIS 220]
+
+
+
+MGMT
+311
+4
+Introduction to Management and Organizational Behavior
+Introduction to organization theory, behavior and interpersonal communication; concepts of power, authority and influence; the role of philosophy and values in organizations.
+0
+0[]
+
+
+
+MGMT
+382
+4
+Business and Its Environment
+A study of the business decision-making process as these decisions interact with the social, technological, political/legal and economic environments. The causes and effects of the regulation of business are developed and explored.
+0
+1[MGMT 271]
+
+
+
+MKTG
+380
+4
+Principles of Marketing
+Identification and analysis of relevant opportunities and constraints in consumer and industrial target markets. Management of the marketing mix including product planning, distribution institutions and activities, promotion and pricing.
+0
+2[1[ACCT 240,ETEC 216], ECON 206]
+
+
+
+OPS
+360
+4
+Operations Management
+Examines the concepts for designing, planning and improving manufacturing and service organizations. Topics include enterprise resource planning, facility layout, forecasting, queuing models, inventory management, lean manufacturing, total quality control, and project management.
+0
+2[DSCI 205, ACCT 245]
+
+
+
+MGMT
+492
+4
+Entrepreneurial Problems
+Field consulting work and study under faculty supervision with small business entrepreneurs in the local business community, directed towards solving varied real-life small business problems.
+0
+1[MGMT 491]
+
+
+
+MGMT
+495
+4
+Strategic Management
+Case study of policy making and administration from a general management point of view.  Emphasis on problem analysis, the decision-making process, administration and control, and development of policies and objectives.
+0
+5[MGMT 311, FIN 341, MKTG 380, OPS 360, 1[MIS 320,ACCT 321]]
+
+
+

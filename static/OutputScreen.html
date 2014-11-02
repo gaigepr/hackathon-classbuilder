@@ -1,222 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="classBuilder">
+  <head>
+    <meta charset="UTF-8">
+    <title>Class Browser</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <script src="/static/js/jquery-2.1.1.min.js"></script>
+    <script src="/static/js/bootstrap.js"></script>
+    <script src="/static/js/angular.js"></script>
+    <script src="/static/js/app.js"></script>
+    <style type="text/css">
+      .center {
+      margin-left: auto;
+      margin-right: auto;
 
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="css/bootstrap.css">
-<style type="text/css">
-.center {
-    margin-left: auto;
-    margin-right: auto;
+      width: 90%;
+      height: 20%;
+      }
+      .divheader {
 
-    width: 90%;
-    height: 20%;
-}
-.divheader {
+      height: 300px;
 
-    height: 300px;
+      }
+      .divheader2 {
+      height: 300px;
+      }
 
-}
-.divheader2 {
-  height: 300px;
-}
-
-</style>
-
-
-</head>
-
-
-<div class="center">
-
-<div class="row">
-  <div class="col-md-8" style="width:1200px;height:100px;background:#FFF5CC;">
-  <div class="row">
-    <div class="col-md-8" style="width:300px;height:80px;background:#003399;color:white;font-size:48px;">
-      <p class="text-left;">classBuilder</p></div>
-    <div class="col-md-8" style="width:900px; background:white;">
-                <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation"> 
-              <a href="#"> Home </a>
-            </li>
-            <li role="presentation">
-              <a href="#"> Help </a>
-            </li>
-            <li role="presentation" class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Dropdown <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu" role="menu">
-              
-              </ul>
-            
-          </li>
-          
-          </ul>
-    </div>
-  </div>
-  </div>
-</div>
-  
-
-<div class="row"> <!--years-->
-  <div class="col-md-8" style="width:300px;background:#003399;border:3.5px double #0066CC;text-align:center;color:#FFFFFF;">2014</div>
-  <div class="col-md-8" style="width:300px;background:#003399;border:3.5px double #0066CC;text-align:center;color:#FFFFFF;">2015</div>
-  <div class="col-md-8" style="width:300px;background:#003399;border:3.5px double #0066CC;text-align:center;color:#FFFFFF;">2016</div>
-  <div class="col-md-8" style="width:300px;background:#003399;border:3.5px double #0066CC;text-align:center;color:#FFFFFF;">2017</div>
-</div>
-
-<div class="row"> <!--quarters-->
-  <div class="col-md-1" style="width:100px;background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">F</div>
-  <div class="col-md-1" style="width:100px;background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">W</div>
-  <div class="col-md-1" style="width:100px;background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">S</div>
-  <div class="col-md-1" style="width:100px;background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">F</div>
-  <div class="col-md-1" style="width:100px;background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">W</div>
-  <div class="col-md-1" style="width:100px;background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">S</div>
-  <div class="col-md-1" style="width:100px;background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">F</div>
-  <div class="col-md-1" style="width:100px;background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">W</div>
-  <div class="col-md-1" style="width:100px;background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">S</div>
-  <div class="col-md-1" style="width:100px;background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">F</div>
-  <div class="col-md-1" style="width:100px;background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">W</div>
-  <div class="col-md-1" style="width:100px;background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">S</div>
-</div>
-
-<div class="row"> <!-- 1 -->
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-</div>
-
-<div class="row"> <!-- 2 -->
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-</div>
-
-<div class="row"> <!-- 3 -->
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-</div>
-
-<div class="row"> <!-- 4 -->
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-</div>
-
-<div class="row"> <!-- 5 -->
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-</div>
-
-<div class="row"> <!-- 6 -->
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-</div>
-
-<div class="row"> <!-- 7 -->
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-</div>
-
-<div class="row"> <!-- 8 -->
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-  <div class="col-md-1" style="width:100px;height:50px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">N/A</div>
-</div>
-
-<div class="row">
-  <div class="col-md-8" style="width:1200px;height:100px;background:#FFF5CC;">
-  <div class="row">
-    <div class="col-md-8" style="width:1200px;color:#003399;font-size:12px;"> F=fall-quarter, W=winter-quarter, S=spring-quarter </div>
-  </div>
-  </div>
-</div>
+    </style>
 
 
+  </head>
+
+  <body ng-controller="builder">
+    <div class="center">
+
+      <!-- <div class="row"> -->
+      <!--   <div class="col-md-8" style="width:1200px;height:100px;background:#FFF5CC;"> -->
+      <!--     <div class="row"> -->
+      <!--       <div class="col-md-8" style="width:300px;height:80px;background:#003399;color:white;font-size:48px;"> -->
+      <!--         <p class="text-left;">classBuilder</p></div> -->
+      <!--       <div class="col-md-8" style="width:900px; background:white;"> -->
+      <!--         <ul class="nav nav-tabs" role="tablist"> -->
+      <!--           <li role="presentation"> -->
+      <!--             <a href="#"> Home </a> -->
+      <!--           </li> -->
+      <!--           <li role="presentation"> -->
+      <!--             <a href="#"> Help </a> -->
+      <!--           </li> -->
+      <!--           <li role="presentation" class="dropdown"> -->
+      <!--             <a class="dropdown-toggle" data-toggle="dropdown" href="#"> -->
+      <!--               Dropdown <span class="caret"></span> -->
+      <!--             </a> -->
+      <!--             <ul class="dropdown-menu" role="menu"> -->
+
+      <!--             </ul> -->
+
+      <!--           </li> -->
+
+      <!--         </ul> -->
+      <!--       </div> -->
+      <!--     </div> -->
+      <!--   </div> -->
+      <!-- </div> -->
 
 
-</div>
+      <div class="col-md-12"> <!--years-->
+        <div class="col-md-3" style="background:#003399;border:3.5px double #0066CC;text-align:center;color:#FFFFFF;">2014</div>
+        <div class="col-md-3" style="background:#003399;border:3.5px double #0066CC;text-align:center;color:#FFFFFF;">2015</div>
+        <div class="col-md-3" style="background:#003399;border:3.5px double #0066CC;text-align:center;color:#FFFFFF;">2016</div>
+        <div class="col-md-3" style="background:#003399;border:3.5px double #0066CC;text-align:center;color:#FFFFFF;">2017</div>
+      </div>
 
+      <div class="col-md-12"> <!--quarters-->
+        <div class="col-md-1" style="background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">Fall</div>
+        <div class="col-md-1" style="background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">Winter</div>
+        <div class="col-md-1" style="background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">Spring</div>
+        <div class="col-md-1" style="background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">Fall</div>
+        <div class="col-md-1" style=";background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">Winter</div>
+        <div class="col-md-1" style="background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">Spring</div>
+        <div class="col-md-1" style="background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">Fall</div>
+        <div class="col-md-1" style="background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">Winter</div>
+        <div class="col-md-1" style="background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">Spring</div>
+        <div class="col-md-1" style="background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">Fall</div>
+        <div class="col-md-1" style="background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">Winter</div>
+        <div class="col-md-1" style="background:#99CC00;border:1px solid #003399;text-align:center;color:#003399;">Spring</div>
+      </div>
 
+      <div class="col-md-12">
+        <div class="col-md-1" ng-repeat="q in schedule"> <!-- 1 -->
+          <div class="" ng-repeat="class in q" style="height:100px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">
+            {{ class.Number + class.Department }}
+            <!--<button type="button" class="btn btn-xs btn-danger"> X </button>-->
+          </div>
+        </div>
+      </div>
 
-
-
-
+  </body>
 </html>
