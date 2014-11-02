@@ -1,0 +1,440 @@
+PSY
+101
+5
+Introduction to Psychology
+Examination of basic psychological processes utilizing results of research investigations: participation in at least two experiments or equivalent activities is expected.
+SSC
+0[]
+
+
+
+PSY
+210
+5
+Cognition
+Provides an overview of the theories, methods and practical applications of cognitive psychology. The higher mental processes, particularly the ways in which knowledge is acquired, stored and used, will be emphasized. The course also examines how theories and findings from cognitive psychology can help us to understand mental activities in everyday life.
+0
+1[PSY 101]
+
+
+
+PSY
+220
+5
+Behavioral Neuroscience
+An overview of the biological bases of behavior. Basic concepts in neuroanatomy, neurophysiology, and neurochemistry will be used to understand the neural bases of normal and abnormal behavior.
+0
+1[PSY 101]
+
+
+
+PSY
+230
+5
+Lifespan Developmental Psychology
+This class covers biological, cognitive, and psychosocial changes that occur across different periods of life, as well as contexts of development (e.g., culture, school, families, peers). Topics include basic developmental tasks from infancy to old age and theories of development.
+0
+1[PSY 101]
+
+
+
+PSY
+240
+5
+Social Psychology
+Socialization (moral development, racial, ethnic and class differences), attitudes and attitude change, conformity, interpersonal attraction. Theories and methods of social psychology stressing applicability of social psychological research and knowledge to contemporary social problems.
+0
+1[PSY 101]
+
+
+
+PSY
+250
+5
+Introduction to Abnormal Psychology
+An overview of the research on individuals within social contexts. Topics include description of disorders, stress and coping, social influence on behavior, the relationship between psychological and physical health and development adjustment issues.
+0
+1[PSY 101]
+
+
+
+PSY
+301
+5
+Overview of Research Methods
+Introduction to research psychology. A variety of research methodologies will be explored. Students will also learn basic description of research data and how to write psychology papers.
+0
+0[]
+
+
+
+PSY
+302
+5
+Research Methods and Statistical Analysis: Correlational Approaches
+Introduction to correlational research methods in psychology and associated statistics. Review of correlational research methods, design of correlational studies, and development of research instruments such as questionnaires and behavioral observation forms. Methods of data analysis include graphs, bivariate and multivariate descriptive correlational statistics, sampling distributions of statistical inference regarding correlations, and introduction to the t and F tests. Nonparametric statistics such as chi square also will be discussed.
+0
+1[PSY 301]
+
+
+
+PSY
+303
+5
+Research Methods and Statistical Analysis: Experimental Approaches
+Continuation of statistical inferencing introduced in PSY 302 as it applies to the special cases of the general linear model. Two sample t-tests and ANOVA models will be introduced at the conceptual and computational level. Appropriate follow-up tests also will be covered. Computer data analysis will be utilized for problem sets and the individual project.
+0
+2[1[1[PSY 302,PSY 210],OR], PSY 301]
+
+
+
+PSY
+310
+5
+Sensation and Perception
+The basic principles involved in seeing, hearing, touch, taste and smell will be presented. Ecological constraints on perceptual processes will be discussed in the context of illusions and other perceptual demonstrations as well as underlying physiological mechanisms.
+0
+3[PSY 210, PSY 220, 1[PSY 301,PSY 301]]
+
+
+
+PSY
+311
+5
+Human Memory
+Reviews memory theories, empirical findings, and applications. Topics include encoding, storage, and retrieval from short- and long-term memory; implicit and explicit memory; autobiographical memory; eyewitness memory.
+0
+2[PSY 210,PSY 301]
+
+
+
+PSY
+318
+5
+Psychology of Language
+An overview of the psychological study of language. Topics include language comprehension, language acquisition, speech errors, bilingualism, dyslexia, language and the brain, and animal communication systems.
+0
+3[PSY 210,PSY 220,PSY 301]
+
+
+
+PSY
+319
+5
+Cognitive Neuroscience
+Discussion of the brain systems underlying human cognition, with a focus on how inferences about brain systems are drawn from neuropathological, neuroimaging, and behavioral studies.
+0
+1[CSCI 000]
+
+
+
+PSY
+320
+5
+Topics in Behavioral Neuroscience
+Detailed examination of key areas of physiological psychology, emphasizing the anatomical, physiological and neurochemical bases of behavior.
+0
+1[CSCI 000]
+
+
+
+PSY
+321
+5
+Learning
+A survey of conditioning and learning.
+0
+2[PSY 220,PSY 301]
+
+
+
+PSY
+322
+5
+Motivation
+Theoretical and empirical study of human and subhuman motivational process. Topics covered range from basic physiological drives to achievement motivation and conformity. Emphasis on both biological and social sources of motivation.
+0
+1[CSCI 000]
+
+
+
+PSY
+323
+5
+Psychopharmacology
+Introduction to behavioral pharmacology and the effects of therapeutic and recreational drugs on the function of the nervous system and behavior.
+0
+1[CSCI 000]
+
+
+
+PSY
+324
+5
+Comparative Psychology
+A phylogenetic comparison of animal behavior, focusing on learning, motivation and sensory processes in selected species of animals.
+0
+2[1[PSY 210,PSY 220], PSY 301]
+
+
+
+PSY
+330
+5
+Child Development
+In-depth coverage of social and cognitive development in children and adolescents. Emphasis on the implications and practical applications of research findings in these areas.
+0
+2[PSY 230,PSY 301]
+
+
+
+PSY
+331
+5
+Adult Development and Aging
+Examines developmental processes that occur in later life, with a focus on theory, research and practical issues. Topics include a) theoretical and methodological issues, b) biological changes and health issues, c) changes in memory and intelligence, d) personality across adulthood and e) death and dying.
+0
+2[PSY 230,PSY 301]
+
+
+
+PSY
+332
+5
+Adolescent Development
+Examines adolescent cognitive, social, physiological and intrapsychic development from a variety of theoretical perspectives.  Emphasis on current research findings in this area.  Students cannot get credit for both PSY 332 and 373.
+0
+1[CSCI 000]
+
+
+
+PSY
+333
+5
+Infant Development
+Examines social, emotional, cognitive, and physical development of infants and toddlers from diverse theoretical perspectives and methodological approaches. Emphasis on current research findings, application of research findings, and considering infant development in socio-cultural context.
+0
+2[PSY 230,PSY 301]
+
+
+
+PSY
+340
+5
+Environmental Psychology
+Theoretical, methodological and empirical problems and issues relating to behavior in constructed and natural environments.
+0
+2[PSY 301,PSY 210-250]
+
+
+
+PSY
+341
+5
+Psychology and Culture
+Cultural and ecological factors and their effect on perception, thinking, language, intelligence, sexuality and other psychological variables. An examination of the ‘universality’ of traditional Euro-American psychological theories.
+SSC
+1[CSCI 000]
+
+
+
+PSY
+342
+5
+Social Cognition
+Survey of theory and research investigating the cognitive processes that underlie social judgment and behavior.
+0
+3[PSY 210,PSY 240,PSY 301]
+
+
+
+PSY
+343
+5
+Social Processes
+Examination of selected topics related to formation and functioning of groups, as well as intergroup relations.
+0
+2[PSY 240,PSY 301]
+
+
+
+PSY
+344
+5
+Psychology and the Law
+An examination of current issues in psychology and the law with an emphasis on the application of social psychological theories and research to the understanding of human behavior in a legal context.
+0
+2[PSY 240,PSY 301]
+
+
+
+PSY
+345
+5
+Evolutionary Psychology
+The application of evolutionary theory to understanding the characteristics of human functioning including emotion, thinking, and action.
+0
+2[PSY 210, 1[PSY 240,PSY 301]]
+
+
+
+PSY
+346
+5
+Stereotyping, Prejudice, &amp; Discrimination
+This course will examine issues of and related to stereotyping, prejudice, and discrimination from a social psychological perspective with an emphasis on racism and sexism.
+0
+2[PSY 240,PSY 301]
+
+
+
+PSY
+351
+5
+Abnormal Psychology and Interventions
+Human behavior patterns culturally labeled as abnormalities, or as mental illness; their etiology, incidence, treatment and social attitudes toward such patterns. Historical review of the concepts used to explain such behavior and the research relating to the treatment of mental disorders.
+0
+2[PSY 250,PSY 301]
+
+
+
+PSY
+410
+5
+Seminar in Cognitive Neuroscience
+In-depth coverage of major issues and methods in the study of cognitive neuroscience. Library and laboratory or field research.
+0
+1[CSCI 000]
+
+
+
+PSY
+411
+5
+Seminar in Cognition
+In-depth coverage of selected topics in memory, cognition, and higher order cognitive processing. Library and laboratory or field research.
+0
+7[PSY 210, PSY 220, PSY 230, PSY 240, PSY 250, PSY 303, 1[PSY 310,PSY 311,PSY 318,PSY 319,OR,PSY 320,OR]]
+
+
+
+PSY
+420
+5
+Seminar in Behavioral Neuroscience
+A detailed examination of brain-behavior relations and the neural bases of behavior, based upon review and discussion of current literature in a variety of areas. Library and/or laboratory work.
+0
+1[CSCI 000]
+
+
+
+PSY
+421
+5
+Seminar in Learning
+In-depth study of major theoretical and methodological approaches to the study of learning. Laboratory and field research exercises.
+0
+1[CSCI 000]
+
+
+
+PSY
+422
+5
+Seminar in Motivation
+In-depth coverage of determinants of behavior in humans and other animals. Students will examine primary research and will conduct research. Activities will also include class discussion, presentations, and a major integration paper.
+0
+1[CSCI 000]
+
+
+
+PSY
+424
+5
+Seminar in Comparative Psychology
+In-depth study of animal behavior where different species in different ecological niches is a major variable. Emphasis on the genetic determinants of behavior differences. Students will examine primary research and will conduct research. Activities will also include class discussion, presentations, and a major integration paper.
+0
+1[CSCI 000]
+
+
+
+PSY
+430
+5
+Seminar in Developmental Psychology
+In-depth study of central themes of human development. Contemporary research questions addressed in professional literature and field investigations.
+0
+7[PSY 210, PSY 220, PSY 230, PSY 240, PSY 250, PSY 303, 1[1[1[PSY 330,PSY 331],PSY 332],PSY 333all]]
+
+
+
+PSY
+431
+5
+Seminar in Adult Development and Aging
+In-depth study of central themes of adult development and aging.  Contemporary research questions addressed in professional literature and field investigations.
+0
+7[PSY 210, PSY 220, PSY 230, PSY 240, PSY 250, PSY 303, PSY 331]
+
+
+
+PSY
+440
+5
+Seminar in Environmental Psychology
+In-depth study of major issues and methods in the study of psychosocial adaptations to and of the physical environment. Library and laboratory or field research.
+0
+7[PSY 210, PSY 220, PSY 230, PSY 240, PSY 250, PSY 303, PSY 340]
+
+
+
+PSY
+441
+5
+Seminar in Cross-Cultural Psychology
+In-depth study of contemporary issues, perspectives, and methods used in the study of how cultural and ethnic factors affect psychological processes. A basic examination of current topics that are receiving significant attention. Library and/or laboratory and field research.
+0
+7[PSY 210, PSY 220, PSY 230, PSY 240, PSY 250, PSY 303, 1[PSY 341,PSY 342,PSY 343,PSY 344,PSY 345,OR,PSY 346,OR]]
+
+
+
+PSY
+442
+5
+Seminar in Social Psychology
+In-depth study of social psychological theory and research to explain patterns of thought and behavior.
+0
+7[PSY 210, PSY 220, PSY 230, PSY 240, PSY 250, PSY 303, 1[PSY 341,PSY 342,PSY 343,PSY 344,OR,PSY 345,PSY 346,OR]]
+
+
+
+PSY
+451
+5
+Seminar in Abnormal Psychology
+Advanced study in major issues and research methods in abnormal psychology. Focus on research design and protocols with clinical populations.
+0
+7[PSY 210, PSY 220, PSY 230, PSY 240, PSY 250, PSY 303, PSY 351]
+
+
+
+PSY
+481
+4
+Seminar in History and Systems of Psychology
+An historical perspective of the development of psychological systems and theories and their impact on contemporary psychology.
+0
+2[PSY 210-250, PSY 302]
+
+
+
+PSY
+482
+4
+Seminar in Psychological Theory
+A seminar examining the philosophical assumptions of science in general and psychology in particular.
+0
+2[PSY 210-250, PSY 302]
+
+
+

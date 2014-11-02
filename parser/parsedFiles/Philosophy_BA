@@ -1,0 +1,140 @@
+PHIL
+102
+3
+Introduction to Logic
+The development of a formal system of propositional and predicate logic for the evaluation of reasoning.
+QSR
+0[]
+
+
+
+PHIL
+112
+3
+Introduction to Philosophy: Moral Issues
+Introduction to philosophical thinking about moral problems. Seeks to understand central moral concepts such as good, right, duty, etc., in the context of contemporary issues.
+HUM
+0[]
+
+
+
+PHIL
+114
+3
+Introduction to Philosophy: Knowledge and Reality
+Emphasis is given to the nature and possibility of knowledge, to related concepts such as truth, belief and evidence, and to selected metaphysical problems.
+HUM
+0[]
+
+
+
+PHIL
+202
+3
+Intermediate Logic
+The development of a formal system of logic with multiple quantifiers, identity and definite descriptions; other topics may include probability, set theory, metatheory, nonclassical logics, or extensions of classical logic.
+0
+1[PHIL 102]
+
+
+
+PHIL
+310
+3
+Theory of Knowledge
+The attempt to understand the possibility, nature, origins and limits of knowledge; problems and concepts.
+0
+2[PHIL 102, PHIL 114]
+
+
+
+PHIL
+320
+3
+Ethical Theory I
+An examination of traditional and contemporary views concerning the overall nature of morality (views such as cognitivism and realism), and also of specific moral theories (such as utilitarianism and contractualism). Other topics include moral rights, moral responsibility and the moral virtues.
+0
+1[CSCI 000]
+
+
+
+PHIL
+330
+3
+Metaphysics I
+A systematic study of the fundamental categories of reality, such as existence, substance, property, identity, space, time, change, event, causality, necessity, essence, free will and mind. The philosophical issues in which these categories play a part also will be discussed.
+0
+2[PHIL 102, PHIL 114]
+
+
+
+PHIL
+364
+3
+History of Philosophy: Ancient Philosophy
+Great philosophical thinkers from the pre-Socratic philosophers to the Hellenistic period; special attention to Plato and Aristotle.
+0
+0[]
+
+
+
+PHIL
+366
+3
+History of Philosophy: the Rationalists
+Great philosophical thinkers in the rationalist tradition, their problems and their methods: Descartes, Spinoza, Leibniz, et al.
+0
+1[PHIL 114]
+
+
+
+PHIL
+367
+3
+History of Philosophy: the Empiricists
+Great philosophical thinkers in the empiricist tradition, their problems and their methods: Locke, Berkeley, Hume, et al.
+0
+1[PHIL 114]
+
+
+
+PHIL
+410
+3
+Theory of Knowledge II
+An intensive examination of selected topics and methods in epistemology.
+0
+1[PHIL 310]
+
+
+
+PHIL
+417
+3
+Seminar in Philosophy
+Examination of a special topic, a particular philosophical issue or the writings of a specific philosopher. Repeatable for credit, but not as a substitute for PHIL 403 or 425.
+0
+1[PHIL courses]
+
+
+
+PHIL
+420
+3
+Ethical Theory II
+An intensive examination of selected topics and methods in ethical theory.
+0
+1[PHIL 320]
+
+
+
+PHIL
+430
+3
+Metaphysics II
+An intensive examination of selected topics and methods in metaphysics.
+0
+1[PHIL 330]
+
+
+
