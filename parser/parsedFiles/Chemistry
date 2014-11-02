@@ -1,0 +1,330 @@
+CHEM
+351
+4
+Organic Chemistry
+Chemistry of carbon compounds with emphasis on structural theory, reactions and mechanisms.
+0
+1[1[CHEM 123,CHEM 225]]
+
+
+
+CHEM
+352
+4
+Organic Chemistry
+Chemistry of carbon compounds with emphasis on structural theory, reactions and mechanisms.
+0
+1[CHEM 351]
+
+
+
+CHEM
+353
+3
+Organic Chemistry
+Chemistry of carbon compounds with emphasis on structural theory, reactions and mechanisms.
+0
+1[CHEM 352]
+
+
+
+CHEM
+354
+3
+Organic Chemistry Laboratory I
+Techniques of organic chemistry: reactions, separations and syntheses of organic compounds.
+0
+1[CHEM 352]
+
+
+
+CHEM
+355
+3
+Organic Chemistry Laboratory II
+Techniques of organic chemistry: reactions, separations; multi-step syntheses and introduction to practical spectroscopy.  Includes online and hardcopy literature searching, use of chemical drawing software, and writing journal-style reports.  This course is intended for students planning to major in Chemistry.
+0
+2[CHEM 354,CHEM 353]
+
+
+
+CHEM
+434
+3
+Instrumental Analysis
+Theory or modern optical, electrical and other physical measurements applied to chemical analysis.
+0
+2[1[CHEM 333,CHEM 225], CHEM 461]
+
+
+
+CHEM
+436
+2
+Instrumental Analysis Lab
+Application of modern instrumental methods of chemical analysis including optical, electrical and other physical measurements.
+0
+1[CHEM 434]
+
+
+
+CHEM
+441
+4
+Advanced Inorganic Chemistry
+Bonding, structure and reactivity of inorganic molecules; transition metal and organometallic chemistry; chemistry of the nonmetallic elements.
+0
+1[CHEM 462]
+
+
+
+CHEM
+461
+4
+Physical Chemistry
+Atomic and molecular structure, states of matter, solutions, chemical thermodynamics and equilibria, chemical kinetics and electrochemistry.
+0
+5[1[CHEM 123,CHEM 225], MATH 224, PHYS 161, PHYS 162, PHYS 163]
+
+
+
+CHEM
+462
+4
+Physical Chemistry
+Atomic and molecular structure, states of matter, solutions, chemical thermodynamics and equilibria, chemical kinetics and electrochemistry.
+0
+1[CHEM 461]
+
+
+
+CHEM
+463
+3
+Physical Chemistry
+Atomic and molecular structure, states of matter, solutions, chemical thermodynamics and equilibria, chemical kinetics and electrochemistry.
+0
+1[CHEM 462]
+
+
+
+CHEM
+464
+3
+Physical/Inorganic Chemistry Laboratory I
+An integrated approach to inorganic synthesis and physical measurement. Includes formal report writing.
+0
+4[1[CHEM 333,CHEM 225], CHEM 441, CHEM 461, CHEM 462]
+
+
+
+CHEM
+465
+3
+Physical/Inorganic Chemistry Laboratory II
+An integrated approach to inorganic synthesis and physical measurement. Includes formal report writing.
+0
+2[CHEM 463,CHEM 464]
+
+
+
+MATH
+224
+5
+Multivariable Calculus and Geometry I
+Coordinate systems, curves and vectors in the plane and in space, partial derivatives, applications including optimization and motion, multiple integrals.
+0
+1[1[1[MATH 125,MATH 135],MATH 138]]
+
+
+
+MATH
+204
+4
+Elementary Linear Algebra
+Systems of linear equations; matrices; the vector space Rn; linear independence, bases, subspaces and dimension in Rn; introduction to determinants and the eigenvalue problem; applications.
+0
+2[1[MATH 125,MATH 135], MATH 224]
+
+
+
+PHYS
+161
+5
+<span class="acalog-highlight-search-1">Physics</span> with Calculus I
+Kinematics and dynamics of particles; work and energy; gravitation; collisions and conservation of momentum. Includes lab.
+LSCI
+1[1[1[MATH 124,MATH 134],MATH 138]]
+
+
+
+PHYS
+162
+5
+<span class="acalog-highlight-search-1">Physics</span> with Calculus II
+Electrostatics; magnetic fields of steady currents; time-varying electric and magnetic fields; DC and AC circuits; electromagnetic waves. Includes labs.
+LSCI
+2[PHYS 161, 1[1[MATH 124,MATH 134],MATH 138]]
+
+
+
+PHYS
+163
+5
+<span class="acalog-highlight-search-1">Physics</span> with Calculus III
+Rotations and oscillations, waves in elastic media, superposition, interference and standing waves; sound waves and electromagnetic waves; geometric optics including reflection and refraction; interference and diffraction of light. Includes labs.
+LSCI
+2[PHYS 162, 1[1[MATH 124,MATH 134],MATH 138]]
+
+
+
+CHEM
+121
+5
+General Chemistry I
+Stoichiometry atomic and molecular structure, states of matter, solutions, thermodynamics, chemical equilibrium, kinetics, electrochemistry. Lab included.
+LSCI
+1[MATH 114]
+
+
+
+CHEM
+122
+5
+General Chemistry II
+Stoichiometry atomic and molecular structure, states of matter, solutions, thermodynamics, chemical equilibrium, kinetics, electrochemistry. Lab included.
+LSCI
+1[CHEM 121]
+
+
+
+CHEM
+123
+4
+General Chemistry III
+Stoichiometry atomic and molecular structure, states of matter, solutions, thermodynamics, chemical equilibrium, kinetics, electrochemistry. Lab included.
+LSCI
+1[CHEM 122]
+
+
+
+CHEM
+333
+5
+Analytical Chemistry
+Theory and practice of gravimetric, volumetric, potentiometric and spectrophotometric methods of analysis. Selected analytical topics such as ion exchange resins, non-aqueous solvents, chelates, extractions, chromatography.
+0
+1[CHEM 123]
+
+
+
+CHEM
+125
+5
+General Chemistry I, Honors
+An accelerated survey of fundamental chemical principles, including atomic and molecular structure, bonding, chemical thermodynamics, equilibria, kinetics, solution chemistry, nuclear chemistry, and analytical  methods.  Lab included.
+LSCI
+1[MATH 114]
+
+
+
+CHEM
+126
+5
+General Chemistry II, Honors
+An accelerated survey of fundamental chemical principles, including atomic and molecular structure, bonding, chemical thermodynamics, equilibria, kinetics, solution chemistry, nuclear chemistry, and analytical  methods.  Lab included.
+LSCI
+1[CHEM 125]
+
+
+
+CHEM
+225
+5
+General Chemistry III, Honors
+An accelerated survey of fundamental chemical principles, including atomic and molecular structure, bonding, chemical thermodynamics, equilibria, kinetics, solution chemistry, nuclear chemistry, and analytical  methods.  Lab included.
+LSCI
+1[CHEM 126]
+
+
+
+CHEM
+375
+4
+Elements of Biochemistry
+Introduction to the structure and function of proteins, nucleic acid, lipids, and carbohydrates. Enzyme chemistry. Replication, transcription, and translation of genetic information. Metabolism of carbohydrates, the citric acid cycle, electron transport, and oxidation phosphorylation. This course is not intended for students in the bachelor of science-biochemistry program.
+0
+4[CHEM 251, CHEM 351, CHEM 352, CHEM 353)]
+
+
+
+CHEM
+471
+4
+Biochemistry I
+A consideration of the structure and function of biological macromolecules; intermediary metabolism; membrane structure and function; bioenergetics. Also offered as BIOL 471.
+0
+2[1[CHEM 123,CHEM 353], CHEM 333]
+
+
+
+CHEM
+472
+4
+Biochemistry II
+A consideration of the structure and function of biological macromolecules; intermediary metabolism; membrane structure and function; bioenergetics. Also offered as BIOL 472.
+0
+1[CHEM 471]
+
+
+
+MATH
+124
+5
+Calculus and Analytic Geometry I
+Average and instantaneous rates of change, interpretation, computation, and application of derivatives to optimization, rates, graphing, and antiderivative problems. Graphing calculator required.
+QSR
+1[1[MATH 115,MATH 118]]
+
+
+
+MATH
+125
+5
+Calculus and Analytic Geometry II
+The definite integral, techniques of integration, applications including area and volume, growth and decay, introduction to differential equations.
+0
+1[1[MATH 124,MATH 134]]
+
+
+
+MATH
+134
+5
+Calculus I Honors
+Intended for particularly strong students. Average and instantaneous rates of change, interpretation, computation, and application of derivatives to optimization, rates, graphing, and antiderivative problems. Frequent writing assignments. Graphing calculator required.
+QSR
+1[CSCI 000]
+
+
+
+MATH
+135
+5
+Calculus II Honors
+Intended for particularly strong students. Riemann sums and the definite integral, interpretation and application to area, volume, growth and decay, techniques of integration. Introduction to differential equations. Frequent writing assignments.
+0
+1[CSCI 000]
+
+
+
+MATH
+138
+5
+Accelerated Calculus
+Designed for entering freshmen who are thoroughly familiar with the computational aspects of single variable calculus. Students study selected topics from MATH 124 and 125 from a more conceptual point of view. Students who complete this course receive five credits of advanced placement (unless previously received). Not open to students who have taken MATH 124 or 125. Offered fall quarter only. AP mathematics credit and MATH 138 are equivalent to MATH 124 and 125.
+0
+1[CSCI 000]
+
+
+

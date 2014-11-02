@@ -1,0 +1,770 @@
+CSCI
+141
+4
+Computer Programming I
+Intended for students majoring in computer science.  Basic concepts of computer programming using an object oriented programming language.  Topics covered:  introduction to the development environment, introduction to algorithms, elements of a programming language, including data types, packages, control structures, procedures and functions, basic input and output, arrays and records, text files, strings, variant records.  Algorithm development, problem solving and software engineering are emphasized.  Programming is required in implementation of concepts.  Lab.
+QSR
+1[1[MATH 112,MATH 114,MATH 115,MATH 118,MATH 124,MATH 125,MATH 134,MATH 138,MATH 156]]
+
+
+
+CSCI
+145
+4
+Computer Programming and Linear Data Structures
+Abstract data types, generics, access or pointer types, dynamic memory allocation, recursion, concurrent programming and linear data structures, including stacks, lists and queues.  Programming is required in implementation of concepts.  Lab.
+QSR
+2[CSCI 141, 1[MATH 115,MATH 118,MATH 124]]
+
+
+
+CSCI
+241
+4
+Data Structures
+Design and implementation of hash tables, general trees, search trees, balanced trees and graphs. Comparison of sorting algorithms. Demonstration of the use of data structures in various applications. Evaluation of the best data structure for a particular task. Programming is required in implementation of concepts.
+0
+2[CSCI 145, 1[MATH 124,MATH 157]]
+
+
+
+CSCI
+247
+5
+Computer Systems I
+An overview of basic computer organization and design. Introduction to C programming. Topics covered include data representation, boolean algebra, machine language, instruction sets, processor architecture, multi-processors, system-level I/O, pipelining, and the memory hierarchy. Includes lab.
+0
+1[CSCI 145]
+
+
+
+CSCI
+301
+5
+Formal Languages and Functional Programming
+Introduction to discrete structures important to computer science, including sets, trees, functions, and relations. Proof techniques. Introduction to the formal language classes and their machines, including regular languages and finite automata, context free languages and pushdown automata. Turing machines and computability will be introduced. Programming using a functional language is required in the implementation of concepts. Includes lab.
+0
+1[CSCI 145]
+
+
+
+CSCI
+305
+4
+Analysis of Algorithms and Data Structures I
+Introduction to the analysis of algorithms and data structures in a mathematically rigorous fashion. Mathematical fundamentals, counting, discrete probability, asymptotic notation, recurrences, loop invariants. Worst-case, probabilistic and amortized analysis techniques applied to sorting algorithms and classic data structures such as heaps, trees and hash tables. Design techniques such as branch and bound, divide and conquer, will be introduced as will correctness proofs for algorithms.
+0
+2[CSCI 241,CSCI 301]
+
+
+
+CSCI
+322
+4
+Principles of Concurrent Programming
+Principles of concurrent programming. Algorithms for mutual exclusion. Synchronization and communication techniques: semaphores; monitors; rendezvous; conditional critical regions. Multi-process and multi-threaded programming. Concurrent programming facilities in HLL’s.
+0
+1[CSCI 247]
+
+
+
+CSCI
+330
+4
+Database Systems
+An introduction to the underlying data models and theory of database systems and the design, implementation and manipulation of relational databases.
+0
+1[CSCI 241]
+
+
+
+CSCI
+345
+4
+Object Oriented Design
+Introduction to Object-Oriented Software Design, including concepts of encapsulation, modularity, coupling and cohesion. Use of Unified Modeling Language (UML) in design documentation. Introduction to the concept of design patterns and exposure to some commonly used design patterns.
+0
+1[CSCI 241]
+
+
+
+CSCI
+352
+4
+Unix Software Development
+The design and development of systems and programs in the Unix environment. Unix operating system fundamental concepts. Unix standards and implementations. System data files. Environment of a Unix process. Unix programming at the system call level. File and terminal I/O, processes, interprocesses communication and signals. Introduction to shell programming, standard Unix development tools and system utilities: awk, m4, cc, lint, make, sed, grep, and others.
+0
+2[CSCI 241,CSCI 247]
+
+
+
+CSCI
+367
+4
+Computer Networks I
+Introduction to computer networks; network architecture and design; protocols, management, physical networks; implementation of network protocols, programming projects in protocol usage and applications.
+0
+2[CSCI 241,CSCI 247]
+
+
+
+CSCI
+405
+4
+Analysis of Algorithms and Data Structures II
+Derivation of time and space complexity of algorithms. Typical algorithms investigated include minimum spanning tree, shortest path, network flow and string matching. Advanced treatment of dynamic programming, greedy algorithms and randomized algorithms. Discussion of NP-Completeness. Correctness proofs of algorithms.
+0
+1[CSCI 305]
+
+
+
+CSCI
+491
+3
+Software Project Requirements Analysis
+Software development life-cycle, project management, requirements analysis, prototyping. Students work in teams performing requirements analysis of a substantial project, culminating in a requirements specification document.
+0
+1[CSCI 000]
+
+
+
+CSCI
+492
+3
+Software Project Design
+Software design methodologies, object-oriented design with UML, design patterns, test planning. Students work in teams to produce a software design document, based on requirements specification produced in CSCI 491.
+0
+1[CSCI 491]
+
+
+
+CSCI
+493
+3
+Software Project Implementation
+Software implementation; unit, integration and system acceptance tests; user documentation. Students work in teams to produce a final software product, fully tested with user documentation, based on a requirements specification produced in CSCI 491 and a software design produced in CSCI 492.
+0
+1[CSCI 492]
+
+
+
+CSCI
+495
+1
+Capstone Seminar
+This course consists of a ten week review of the required undergraduate program in Computer Science, culminating in the Major Field Test which is required of all Computer Science Majors.
+0
+1[CSCI 999]
+
+
+
+MATH
+124
+5
+Calculus and Analytic Geometry I
+Average and instantaneous rates of change, interpretation, computation, and application of derivatives to optimization, rates, graphing, and antiderivative problems. Graphing calculator required.
+QSR
+1[1[MATH 115,MATH 118]]
+
+
+
+MATH
+125
+5
+Calculus and Analytic Geometry II
+The definite integral, techniques of integration, applications including area and volume, growth and decay, introduction to differential equations.
+0
+1[1[MATH 124,MATH 134]]
+
+
+
+MATH
+204
+4
+Elementary Linear Algebra
+Systems of linear equations; matrices; the vector space Rn; linear independence, bases, subspaces and dimension in Rn; introduction to determinants and the eigenvalue problem; applications.
+0
+2[1[MATH 125,MATH 135], MATH 224]
+
+
+
+MATH
+341
+4
+Probability and Statistical Inference
+Probability, including combinatorial methods, discrete distributions and continuous distributions using integrals. Descriptive statistics and the use of computer statistical package. Statistical inference, including confidence intervals and hypothesis testing.
+0
+1[1[1[MATH 125,MATH 135],MATH 138]]
+
+
+
+CSCI
+321
+4
+Game Programming
+Introduction to the basics of game design and implementation.  Game worlds, storytelling, character development and the user experience.  Programming audio, 2D and 3D graphics basics.  Networking basics. Game artificial intelligence.  Game genres: action, strategy, role-playing, sports, vehicles, simulations, adventure.
+0
+1[CSCI 241]
+
+
+
+CSCI
+342
+4
+Web Scripting
+For CSCI majors and nonmajors seeking Web programmer certification from the Internet Studies Center. Development of dynamic Web applications. Study of various server-side scripting languages (PHP, Perl, Python, Ruby on Rails) for creating dynamic Web pages and querying and manipulating Databases on the Web.
+0
+1[CSCI 330]
+
+
+
+CSCI
+343
+1
+Programming Workshop
+A review of standard algorithmic techniques and practice in their rapid application to information processing problems, especially in a team setting.   Preparation for participation in regional and national programming competition.  May be repeated once for credit.
+0
+1[CSCI 345]
+
+
+
+CSCI
+347
+3
+Computer Organization II
+Pentium assembly language programming, interfacing assembly language programs to high-level languages, memory design, cache memory, virtual memory, I/O interfacing and communication, interrupts.
+0
+2[1[CSCI 227,ETEC 273], CSCI 241]
+
+
+
+CSCI
+351
+4
+Windows Software Development
+The design and development of event driven programming using Visual C#.NET.  Use of .NET Framework libraries. Creation of Windows based applications using forms, controls, and GDI+. Design of graphical user interfaces and Visual Studio development tools. Working with LINQ and Windows Presentation Foundation (WPF). Programming using XAML. Study of XML Schema Documents, Extensible Stylesheet Language and XSL Transformations.
+0
+1[CSCI 345]
+
+
+
+CSCI
+372
+4
+Robotics: Applications of Artificial Intelligence
+Basic robot design, RobotC programming, reinforcement learning, genetic algorithms, and artificial neural network concepts will be covered.  Course is designed for undergraduate students who are interested in robotics and artificial intelligence applications. Students who have previous robotics and/or programming experience are encouraged to take this course.
+0
+1[CSCI 000]
+
+
+
+CSCI
+380
+4
+Numerical Computations
+Computer arithmetic and error analysis, roots of nonlinear equations, solution of system of linear and nonlinear equations, numerical differentiation, numerical quadrature, approximation theory, initial and boundary value problems.
+0
+2[CSCI 241,MATH 204]
+
+
+
+CSCI
+400
+1
+Directed Independent Study
+An individualized course of study not available through or replacing existing curriculum, to be arranged between one matriculating student and sponsoring faculty member. All academic policies and registration deadlines apply. Directed Independent Study courses cannot substitute for General University Requirements and are not eligible for tuition waiver.
+0
+0[]
+
+
+
+CSCI
+401
+4
+Automata and Formal Language Theory
+Introduction to advanced topics in formal language and automata theory. Turing machines and other language classes including context-sensitive grammars and unrestricted grammars. Practical applications of formal languages will be introduced.
+0
+1[CSCI 301]
+
+
+
+CSCI
+402
+4
+Artificial Intelligence
+Introduction to knowledge representation and search. Possible application areas include natural language, perception, learning and expert systems.
+0
+1[CSCI 301]
+
+
+
+CSCI
+404
+4
+Natural Language Processing
+Fundamental concepts and ideas in natural language processing (NLP), and current research in the area; algorithms available for the processing of linguistic information and the underlying computational properties of natural languages. Word level, syntactic, and semantic processing from both a linguistic and an algorithmic perspective are considered. The focus is on modern quantitative techniques in NLP: using large corpora, including the web, statistical models for acquisition, disambiguation, and parsing.
+0
+1[CSCI 301]
+
+
+
+CSCI
+410
+4
+Programming Languages
+Introduction to the structure of programming languages; syntax and semantics; properties of algorithmic languages; special purpose languages.
+0
+1[CSCI 301]
+
+
+
+CSCI
+412
+4
+Mobile Device Programming
+Design and development of applications for the mobile environment. Android platform, tools for Android development, UI design, mobile application distribution systems.
+0
+2[CSCI 330,CSCI 367]
+
+
+
+CSCI
+430
+4
+Database Theory
+Data models and their access languages. Design issues: ER diagrams, functional dependency analysis and normalization. Database programming.
+0
+2[CSCI 301,CSCI 330]
+
+
+
+CSCI
+442
+4
+Advanced Web Programming in Java
+For CSCI majors and nonmajors seeking Web programming certification from the Internet Studies Center. Advanced network, applet, and server applications in Java. GUIs, Web spiders and Web search algorithms, security, remote method invocation and Java Beans.
+0
+2[CSCI 342,CSCI 351]
+
+
+
+CSCI
+450
+4
+Compiler Theory and Design
+Theory and practice of compiler design. Emphasis is on basic theory and methods necessary to design and implement a functional syntax directed compiler.
+0
+1[CSCI 301]
+
+
+
+CSCI
+460
+4
+Operating Systems
+Principles of operating systems; concurrent processes; resource management; process management; file systems; protection.
+0
+2[CSCI 322,CSCI 352]
+
+
+
+CSCI
+461
+4
+Computer Security
+An overview of computer security and detailed study of the theoretical foundations and practical implementations of some aspects of security, including policy specification, the role of cryptography, policy implementation and assurance, security threats and counter-measures.
+0
+2[CSCI 301,CSCI 367]
+
+
+
+CSCI
+462
+4
+OS Device Drivers
+Operating System kernel programming, system call mechanisms, system call processing, file system internals, device drivers, interrupt processing, methods for controlling hardware from software.  Includes study and augmentation of real Operating Systems, both open-source and closed-source.
+0
+1[CSCI 460]
+
+
+
+CSCI
+463
+1
+Cyber Defense
+Seminars and practical exercises to prepare students for the Collegiate Cyber Defense Competition. Repeatable up to 3 credits.
+0
+1[CSCI 000]
+
+
+
+CSCI
+467
+4
+Computer Networks II
+Advanced computer networks. Applications including Internet and distributed computing.
+0
+1[CSCI 367]
+
+
+
+CSCI
+474
+4
+Bioinformatics
+Interdisciplinary view of Bioinformatics is presented in a seminar style.  Sequence alignment, scripting languages, databases, phylogentics, genomics, proteomics and select advanced topics are covered from a variety of disciplinary perspectives.  Students give presentations and participate in a significant group project.  Intended for juniors and seniors in CSCI, BIOL, MATH, CHEM who have some relevant course experience and interest in this emerging discipline.
+0
+1[CSCI 000]
+
+
+
+CSCI
+480
+4
+Computer Graphics
+Overview of the hardware, software, and techniques used in computer graphics; raster display devices; input devices; display files, 2D and 3D transformations; windowing, clipping; simple surface rendering.
+0
+2[CSCI 241,MATH 204]
+
+
+
+CSCI
+515
+4
+Parallel Computation
+Topics in concurrent and parallel computation. Possible areas include formal specification methods for parallel systems, semantics and verification of parallel language programs, and analysis and implementation of parallel algorithms.
+0
+1[CSCI 510]
+
+
+
+CSCI
+520
+4
+Advanced Compiler Design
+Theory and practice of compiler design. Detailed consideration of efficient parsing techniques; organization of semantic analysis and code generation phases; machine dependent and independent optimization techniques; organization of run time environment.
+0
+1[CSCI 510]
+
+
+
+CSCI
+525
+4
+Advanced Topics in Operating Systems
+Various topics as they relate to distributed operating systems.  Case study using a distributed operating system to perform experiments in class laboratory.
+0
+1[1[CSCI 460,CSCI 513]]
+
+
+
+CSCI
+530
+4
+Advanced Database Theory
+Advanced topics in database systems. Possible areas include transaction processing, concurrency control, recovery, security, query optimization, distributed systems, and logic-based systems.
+0
+1[CSCI 430]
+
+
+
+CSCI
+571
+4
+Machine Learning Algorithms
+Covers important machine learning research areas such as artificial neural nets, Bayesian learning, data mining, decision tree learning, evolutionary computation, reinforcement learning, version space learning, rough sets, and computational learning theory.  Algorithms from these research areas will be analyzed.  Each student will select one of the learned algorithms and apply it to the term project.
+0
+1[CSCI 888]
+
+
+
+CSCI
+572
+4
+Robotics
+The materials of this class cover from hardware to software according to students’ need and available instructors.  Each offer of the class will select one of the two (hardware and software) research areas or a combination of them.  The syllabus includes, but is not limited to, architectures, navigation, and motion planning, control, vision, synthesizing, and algorithm design.  Students will gain firsthand experience by working on a small robot.  They will design algorithms or manipulate the hardware to make the robot do or learn a certain task.
+0
+1[CSCI 888]
+
+
+
+CSCI
+573
+4
+Computational Linguistics
+Formal and computational models of the syntax, semantics and pragmatics of natural languages; rival approaches to semantic and pragmatic representation; applications to database queries and machine translation.
+0
+1[1[CSCI 401,CSCI 510]]
+
+
+
+CSCI
+575
+4
+Information Retrieval
+Index construction, vector space model, evaluation of relevance in IR systems, text classification, clustering, machine learning approaches to IR, applications to web search, current research topics.
+0
+1[CSCI 511]
+
+
+
+CSCI
+577
+4
+Data Mining
+Techniques for extracting useful information from large data sets; attribute-value learning techniques (decision trees, association rules); relational mining techniques (inductive logic programming, efficient search of relational spaces); probabilistic techniques (Bayesian networks, conditional independence); statistical techniques; sampling strategies; applications in bioinformatics, personalization, information retrieval, web modeling, filtering, and text processing.
+0
+2[CSCI 510,CSCI 511]
+
+
+
+CSCI
+578
+4
+Cryptography
+Selected topics from number theory; simple, homophonic, polyalphabetic substitution ciphers; product ciphers, DES; exponentiation ciphers; knapsack ciphers; key management.
+0
+1[CSCI 509]
+
+
+
+CSCI
+580
+4
+Advanced Computer Graphics
+Three-dimensional concepts, shading techniques, curves and surfaces, ray tracing, radiosity, texture mapping, fractals.
+0
+1[CSCI 480]
+
+
+
+CSCI
+584
+4
+Scientific Visualization
+Introduction to the computer display of scientific datasets. Topics include visualizing 2D and 3D scalar and vector fields, visualizing nonlinear relationships, and user interface design.
+0
+1[CSCI 480]
+
+
+
+CSCI
+585
+4
+Image Processing
+Digital image fundamentals, image transforms, image enhancements, image restoration, image encoding, representation and description, color image processing, morphological operations.
+0
+1[CSCI 480]
+
+
+
+M/CS
+335
+4
+Linear Optimization
+The optimization of linear functions subject to linear constraints. Linear programming, duality theory, sensitivity analysis, applications.
+0
+2[MATH 204, 1[CSCI 140,OR,CSCI 141,OR,MATH 307]]
+
+
+
+M/CS
+375
+4
+Numerical Computation
+Computer arithmetic, solution of nonlinear equations and optimization in a single variable; matrix factorization; matrix iterative techniques.
+0
+2[MATH 204, 1[1[CSCI 140,CSCI 141],MATH 307]]
+
+
+
+M/CS
+435
+4
+Nonlinear Optimization
+Nonlinear optimization with emphasis on basic theory (including Lagrange multipliers and the Kuhn-Tucker conditions), algorithms for numerical solution of problems, and applications. Introductory dynamic programming, with emphasis on applications and algorithms.
+0
+4[MATH 204, MATH 224, MATH 331, 1[1[CSCI 140,CSCI 141],MATH 307]]
+
+
+
+M/CS
+475
+4
+Numerical Analysis
+Polynomial interpolation including splines, orthogonal systems of functions and least squares approximation; numerical differentiation and integration; solution of systems of nonlinear equations and unconstrained optimization.
+0
+2[MATH 224,M/CS 375]
+
+
+
+BIOL
+204
+4
+Introduction to Evolution, Ecology and Biodiversity
+Introduction to evolutionary and ecological processes involved in the generation of our planet’s biodiversity, including review of patterns and processes that influence the origin, evolution, distribution, and abundance of living things. Includes lab.
+LSCI
+1[1[CHEM 121,CHEM 125]]
+
+
+
+BIOL
+205
+5
+Introduction to Cellular and Molecular Biology
+Structure and function of biomolecules and cells, membrane structure and function, photosynthesis and respiration, molecular origin of life, phylogenetic and metabolic diversity of prokaryotes, molecular genetics and genomics. Includes lab.
+LSCI
+3[BIOL 204, 1[CHEM 121,CHEM 125], 1[CHEM 122,CHEM 126]]
+
+
+
+BIOL
+206
+5
+Introduction to Organismal Biology
+Study of the many ways that eukaryotic organisms perform basic functions and cope with varying environmental conditions. Phylogenetic organismal diversity and organ system structural and functional diversity will be studied in lecture and laboratory.
+LSCI
+3[BIOL 205, 1[CHEM 122,CHEM 126], 1[CHEM 123,CHEM 225]]
+
+
+
+CHEM
+121
+5
+General Chemistry I
+Stoichiometry atomic and molecular structure, states of matter, solutions, thermodynamics, chemical equilibrium, kinetics, electrochemistry. Lab included.
+LSCI
+1[MATH 114]
+
+
+
+CHEM
+122
+5
+General Chemistry II
+Stoichiometry atomic and molecular structure, states of matter, solutions, thermodynamics, chemical equilibrium, kinetics, electrochemistry. Lab included.
+LSCI
+1[CHEM 121]
+
+
+
+CHEM
+123
+4
+General Chemistry III
+Stoichiometry atomic and molecular structure, states of matter, solutions, thermodynamics, chemical equilibrium, kinetics, electrochemistry. Lab included.
+LSCI
+1[CHEM 122]
+
+
+
+GEOL
+211
+5
+Physical Geology
+Course for science and geology majors, in which the origin, composition and structure of earth are explored.  Identification of common rocks and minerals; the evolution of the surface features and structures of continents and interpretation of landforms from maps are emphasized.  Will include substantial quantitative work.  Students intending to major in Geology or affiliated sciences should take GEOL 211 in lieu of GEOL 101.  Successful completion of both GEOL 101 and GEOL 211A may substitute for GEOL 211 in all Geology Department requirements.
+LSCI
+1[MATH 114]
+
+
+
+GEOL
+212
+4
+Historical Geology
+Evolution of the major features of the earth’s surface and of life; history of the ocean basins, continents and mountain belts related to the theory of plate tectonics; geologic history of North America and the Pacific Northwest.
+LSCI
+2[1[GEOL 211,GEOL 211A], MATH 114]
+
+
+
+GEOL
+308
+3
+Earthquakes
+This course is a qualitative survey of the causes, effects and dynamics of local and global earthquakes. Topics include wave propagation, earth structure, the global distribution of earthquakes, faulting mechanisms, earthquake magnitude, earthquake prediction and seismic hazard. Emphasis is placed on the investigation of earthquake behavior through case studies of historical earthquakes.
+SCI
+2[1[1[GEOL 211,GEOL 211A],SCED 202], MATH 114]
+
+
+
+GEOL
+309
+3
+Volcanology
+Processes, products, and hazards of volcanic eruptions. Topics to include eruptive mechanisms, volcanic landforms and their relation to the composition and physical properties of magmas, emplacement mechanisms of pyroclastic flows and characteristics of their deposits, calderas, volcanic gases, effects of volcanic eruptions on climate and the atmosphere, volcanic hazards and their mitigation, and geothermal energy and mineral resources.
+0
+3[1[GEOL 211,GEOL 101], 1[GEOL 211A,SCED 202], GEOL 211A]
+
+
+
+GEOL
+314
+4
+Engineering Geology
+Introduction to the engineering properties of rock and soil surficial materials and their significance in civil works and geological processes such as rock slides, soil-slope stability, and liquefaction.
+0
+2[1[GEOL 211,GEOL 211A], 1[PHYS 121,PHYS 161]]
+
+
+
+GEOL
+315
+4
+Minerals, Energy and Society
+Mineral resources are vital to society, and yet they are nonrenewable, expensive to find, unevenly distributed, and their extraction and consumption can be environmentally damaging. Can we make economically and environmentally sound decisions regarding land-use planning, development vs. conservation, mining vs. environmental protection, recycling vs. waste?
+SCI
+3[1[1[GEOL 101,GEOL 211],GEOL 101], 1[GEOL 211A,SCED 202], GEOL 211A]
+
+
+
+GEOL
+316
+4
+Research in Marine Paleontology
+A problem-solving approach, working on a sequence of problems with reports that build to a core project, report and presentation. Begins with the classification and ecology of marine organisms. Research projects involve data gathering and analysis of fossil samples. Emphasizes hypothesis testing, writing and sharing of data in collaborative research.
+0
+1[GEOL 212]
+
+
+
+GEOL
+340
+3
+Geological Oceanography
+In this course students will gain an understanding of the nature and origin of oceanic crust and lithosphere. Large scale chemical and geological processes associated with ocean basins, and seawater-rock interactions, and the role of oceanic circulation in climate and climate change will be studied.  Additional topics will be included based on student interest, which will be explored via independent reading assignment.
+SCI
+2[GEOL 101, 1[1[GEOL 211A,GEOL 211],SCED 202]]
+
+
+
+PHYS
+161
+5
+Physics with Calculus I
+Kinematics and dynamics of particles; work and energy; gravitation; collisions and conservation of momentum. Includes lab.
+LSCI
+1[1[1[MATH 124,MATH 134],MATH 138]]
+
+
+
+PHYS
+162
+5
+Physics with Calculus II
+Electrostatics; magnetic fields of steady currents; time-varying electric and magnetic fields; DC and AC circuits; electromagnetic waves. Includes labs.
+LSCI
+2[PHYS 161, 1[1[MATH 124,MATH 134],MATH 138]]
+
+
+
+PHYS
+163
+5
+Physics with Calculus III
+Rotations and oscillations, waves in elastic media, superposition, interference and standing waves; sound waves and electromagnetic waves; geometric optics including reflection and refraction; interference and diffraction of light. Includes labs.
+LSCI
+2[PHYS 162, 1[1[MATH 124,MATH 134],MATH 138]]
+
+
+
