@@ -33,34 +33,34 @@
   <body ng-controller="builder">
     <div class="center">
 
-      <!-- <div class="row"> -->
-      <!--   <div class="col-md-8" style="width:1200px;height:100px;background:#FFF5CC;"> -->
-      <!--     <div class="row"> -->
-      <!--       <div class="col-md-8" style="width:300px;height:80px;background:#003399;color:white;font-size:48px;"> -->
-      <!--         <p class="text-left;">classBuilder</p></div> -->
-      <!--       <div class="col-md-8" style="width:900px; background:white;"> -->
-      <!--         <ul class="nav nav-tabs" role="tablist"> -->
-      <!--           <li role="presentation"> -->
-      <!--             <a href="#"> Home </a> -->
-      <!--           </li> -->
-      <!--           <li role="presentation"> -->
-      <!--             <a href="#"> Help </a> -->
-      <!--           </li> -->
-      <!--           <li role="presentation" class="dropdown"> -->
-      <!--             <a class="dropdown-toggle" data-toggle="dropdown" href="#"> -->
-      <!--               Dropdown <span class="caret"></span> -->
-      <!--             </a> -->
-      <!--             <ul class="dropdown-menu" role="menu"> -->
+      <div class="row">
+        <div class="col-md-8" style="width:1200px;height:100px;background:#FFF5CC;">
+          <div class="row">
+            <div class="col-md-8" style="width:300px;height:80px;background:#003399;color:white;font-size:48px;">
+              <p class="text-left;">classBuilder</p></div>
+            <div class="col-md-8" style="width:900px; background:white;">
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation">
+                  <a href="#"> Home </a>
+                </li>
+                <li role="presentation">
+                  <a href="#"> Help </a>
+                </li>
+                <li role="presentation" class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Dropdown <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
 
-      <!--             </ul> -->
+                  </ul>
 
-      <!--           </li> -->
+                </li>
 
-      <!--         </ul> -->
-      <!--       </div> -->
-      <!--     </div> -->
-      <!--   </div> -->
-      <!-- </div> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
       <div class="col-md-12"> <!--years-->
@@ -88,7 +88,7 @@
       <div class="col-md-12">
         <div class="col-md-1" ng-repeat="q in schedule"> <!-- 1 -->
           <div class="" ng-repeat="class in q" style="height:100px;background:#D1F0FF;border:1px solid black;text-align:center;color:black">
-            {{ class.Number + class.Department }}
+            {{ class }}
             <!--<button type="button" class="btn btn-xs btn-danger"> X </button>-->
           </div>
         </div>
